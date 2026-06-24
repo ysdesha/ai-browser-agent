@@ -1,0 +1,52 @@
+COMMAND: open google
+
+{
+  "action":"navigate",
+  "target_url":"https://google.com",
+  "data":{},
+  "steps":[]
+}
+
+--------------------------------------------------
+
+COMMAND: close all tabs
+
+{
+  "action":"tab_management",
+  "target_url":"",
+  "data":{
+    "operation":"close_all"
+  },
+  "steps":[]
+}
+
+--------------------------------------------------
+
+COMMAND: apply to this job
+
+{
+  "action":"fill_form",
+  "target_url":"",
+  "data":{},
+  "steps":[
+    "fill out application",
+    "submit application"
+  ]
+}
+
+--------------------------------------------------
+
+COMMAND: email this summary to my boss
+
+{
+  "action":"email",
+  "target_url":"",
+  "data":{
+    "recipient":"boss"
+  },
+  "steps":[
+    "compose email",
+    "attach summary",
+    "send email"
+  ]
+}
