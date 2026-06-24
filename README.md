@@ -354,9 +354,6 @@ Technologies Used:
 
 ## Future Goals
 
-* Integrate Large Language Models
-* Enable natural language browser control
-* Add memory and context retention
 * Support Gmail and Calendar automation
 * Build a FastAPI backend
 * Create a React-based interface
